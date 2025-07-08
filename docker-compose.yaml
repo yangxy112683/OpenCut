@@ -57,7 +57,7 @@ services:
       - NODE_ENV=production
       - DATABASE_URL=postgresql://opencut:opencutthegoat@db:5432/opencut
       - BETTER_AUTH_URL=http://localhost:3000
-      - BETTER_AUTH_SECRET=your-production-secret-key-here
+      - BETTER_AUTH_SECRET=43041dafac13e6453bbe99c4dc0ce7f3c841d122dbb7dc55c4c1ab568ccf3074
       - UPSTASH_REDIS_REST_URL=http://serverless-redis-http:80
       - UPSTASH_REDIS_REST_TOKEN=example_token
       - GOOGLE_CLIENT_ID=${GOOGLE_CLIENT_ID}
